@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import mapboxgl from "mapbox-gl";
+import mapboxgl, { Marker } from "mapbox-gl";
 
 import "mapbox-gl/dist/mapbox-gl.css";
 
@@ -12,7 +12,7 @@ const MapboxExample = () => {
 
   useEffect(() => {
     mapboxgl.accessToken =
-      "pk.eyJ1IjoibmhhdG5tMTIzIiwiYSI6ImNtODJkdzdrYjBiZzEya3NhZXBvNzV4eWYifQ.T-cwvyhjH_EdZ-c6tKYRaQ";  //TODO: Move this to somewhere else
+      "pk.eyJ1IjoibmhhdG5tMTIzIiwiYSI6ImNtODJkdzdrYjBiZzEya3NhZXBvNzV4eWYifQ.T-cwvyhjH_EdZ-c6tKYRaQ"; //TODO: Move this to somewhere else
 
     mapRef.current = new mapboxgl.Map({
       container: mapContainerRef.current,
@@ -34,7 +34,7 @@ const MapboxExample = () => {
     mapRef.current.on("load", () => {
       mapRef.current.addSource("test_layer", {
         type: "vector",
-        tiles: ["http://localhost:8080/data/polygon_test_data/{z}/{x}/{y}.pbf"], //TODO: Replace with acutual server's API
+        tiles: ["http://localhost:8080/data/point_data/{z}/{x}/{y}.pbf"], //TODO: Replace with acutual server's API
         minzoom: 6,
         maxzoom: 14,
       });
@@ -49,6 +49,42 @@ const MapboxExample = () => {
           "fill-opacity": 0.5,
         },
       });
+
+      mapRef.current.loadImage(
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/RedDot.svg/1024px-RedDot.svg.png",
+        (error, image) => {
+          if (error) throw error;
+          if (!mapRef.current.hasImage("teardrop")) {
+            mapRef.current.addImage("teardrop", image);
+          }
+
+          // Add the symbol layer once the image is loaded
+          mapRef.current.addLayer({
+            id: "points-teardrop",
+            type: "symbol",
+            source: "test_layer",
+            "source-layer": "test_layer",
+            layout: {
+              "icon-image": "teardrop",
+              "icon-size": 0.05, // adjust based on image size
+              "icon-anchor": "bottom",
+            },
+            filter: ["==", "$type", "Point"],
+          });
+        }
+      );
+
+      // mapRef.current.addLayer({
+      //   id: "points-circle",
+      //   type: "circle",
+      //   source: "test_layer",
+      //   "source-layer": "test_layer",
+      //   paint: {
+      //     "circle-radius": 16,
+      //     "circle-color": "#0078d4",
+      //   },
+      //   filter: ["==", "$type", "Point"],
+      // });
 
       geolocateRef.current.trigger();
     });
