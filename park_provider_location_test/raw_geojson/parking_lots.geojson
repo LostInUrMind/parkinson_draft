@@ -1,0 +1,821 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70009820500417,
+          21.009999933398163
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "7e692ccc-2123-4c06-86f7-6af404ba5abf",
+        "ProviderId": "fb11e30d-7fc9-459c-bdcf-17ec092b504f",
+        "Name": "Lot A1",
+        "Description": "Description for lot 1.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.84,
+        "Utilities": "Covered",
+        "TotalSlots": 77,
+        "AvailableSlots": 19,
+        "Status": "Approved",
+        "CreatedAt": "2025-06-06T08:00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70022769030595,
+          21.01002443545886
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "ac281954-9fb5-4407-a1df-845c655f2063",
+        "ProviderId": "1e03ee0d-c298-4ca9-a2c8-9f1f41dc6888",
+        "Name": "Lot B2",
+        "Description": "Description for lot 2.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.01,
+        "Utilities": "Covered, CCTV",
+        "TotalSlots": 28,
+        "AvailableSlots": 16,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T08:05:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70052340673794,
+          21.01014204529352
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "dcae08fd-8d7f-471f-adf2-e4bf42e39763",
+        "ProviderId": "726fd5f2-e199-422a-b115-87a49170d39c",
+        "Name": "Lot C3",
+        "Description": "Description for lot 3.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 0.78,
+        "Utilities": "CCTV",
+        "TotalSlots": 86,
+        "AvailableSlots": 19,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T08:10:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.69948402472187,
+          21.01025638809959
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "69630752-efe1-401b-ae8f-0478e84aa01e",
+        "ProviderId": "5607f93e-3cbd-4f82-b837-c42809104a0b",
+        "Name": "Lot D4",
+        "Description": "Description for lot 4.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.97,
+        "Utilities": "Covered, CCTV",
+        "TotalSlots": 43,
+        "AvailableSlots": 7,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T08:15:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.69913056484552,
+          21.010171447738045
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "b261e057-d7cc-44a0-8f3f-c7ce42855180",
+        "ProviderId": "063eacf5-6255-4bf2-a54b-f89408a289b6",
+        "Name": "Lot E5",
+        "Description": "Description for lot 5.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.38,
+        "Utilities": "None",
+        "TotalSlots": 66,
+        "AvailableSlots": 17,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T08:20:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.69925830034492,
+          21.00968140624329
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "1ab14d28-9291-4bcb-978c-3cc371981628",
+        "ProviderId": "d4aaa4e8-257a-4308-ad50-c41cec44c60a",
+        "Name": "Lot F6",
+        "Description": "Description for lot 6.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.47,
+        "Utilities": "Covered",
+        "TotalSlots": 70,
+        "AvailableSlots": 4,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T08:25:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.69941753226999,
+          21.01041973481422
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "89e4a214-c728-4c12-ac72-8268a3588439",
+        "ProviderId": "db9a2702-62fc-4e60-9441-52aff27514b9",
+        "Name": "Lot G7",
+        "Description": "Description for lot 7.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.0,
+        "Utilities": "None",
+        "TotalSlots": 94,
+        "AvailableSlots": 10,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T08:30:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.69983923558698,
+          21.009214231946856
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "8a88e551-c0fb-45a5-a30a-480f6e71a8af",
+        "ProviderId": "719b5c89-e7b3-4b56-8188-b37b4b700a4a",
+        "Name": "Lot H8",
+        "Description": "Description for lot 8.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.84,
+        "Utilities": "EV charging",
+        "TotalSlots": 57,
+        "AvailableSlots": 5,
+        "Status": "Approved",
+        "CreatedAt": "2025-06-06T08:35:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70049191150002,
+          21.009251801969626
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "c7196583-7878-4a32-8955-65e5946bf82e",
+        "ProviderId": "30cc0bf3-03a8-4cd0-a093-0b6c88890a77",
+        "Name": "Lot I9",
+        "Description": "Description for lot 9.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.89,
+        "Utilities": "Covered, CCTV",
+        "TotalSlots": 35,
+        "AvailableSlots": 0,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T08:40:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70035892465984,
+          21.00900187968122
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "1de2a856-2eca-4915-901e-966585858be3",
+        "ProviderId": "cb3667a9-8571-491d-bcfc-0a509d43b69b",
+        "Name": "Lot J10",
+        "Description": "Description for lot 10.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.35,
+        "Utilities": "Covered, CCTV",
+        "TotalSlots": 97,
+        "AvailableSlots": 12,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T08:45:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70075262996806,
+          21.00883199748064
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "4ecf1970-779c-4243-98d6-cfef3cf3a080",
+        "ProviderId": "35e9c286-a5f7-4593-b673-e07a6653425d",
+        "Name": "Lot K11",
+        "Description": "Description for lot 11.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.13,
+        "Utilities": "CCTV",
+        "TotalSlots": 44,
+        "AvailableSlots": 1,
+        "Status": "Approved",
+        "CreatedAt": "2025-06-06T08:50:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70100264362361,
+          21.00893942310539
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "25c74ca4-04aa-45bc-a91c-22f3836fe71b",
+        "ProviderId": "68947382-a50e-4e97-87bf-c0394769f602",
+        "Name": "Lot L12",
+        "Description": "Description for lot 12.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.79,
+        "Utilities": "EV charging",
+        "TotalSlots": 37,
+        "AvailableSlots": 0,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T08:55:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70159757708035,
+          21.008895318856247
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "e45504d2-4e0a-4314-baf1-d65e2aaaddea",
+        "ProviderId": "f2c3625c-31bb-447a-aff3-c592fb52ee1e",
+        "Name": "Lot M13",
+        "Description": "Description for lot 13.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.75,
+        "Utilities": "Covered",
+        "TotalSlots": 24,
+        "AvailableSlots": 15,
+        "Status": "Approved",
+        "CreatedAt": "2025-06-06T09:00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70254189445683,
+          21.007205432999
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "87463a70-e576-4882-b9fb-087a6779f2fe",
+        "ProviderId": "523d4ae9-5938-4b47-9857-eefdb0393a6f",
+        "Name": "Lot N14",
+        "Description": "Description for lot 14.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 0.62,
+        "Utilities": "None",
+        "TotalSlots": 36,
+        "AvailableSlots": 15,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T09:05:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70130160277063,
+          21.005835918624854
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "70b94ae5-51aa-4cb8-8b89-8b918b5ee403",
+        "ProviderId": "a73419cd-f183-41dd-8531-2b319dcd08f2",
+        "Name": "Lot O15",
+        "Description": "Description for lot 15.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.01,
+        "Utilities": "Covered, CCTV",
+        "TotalSlots": 97,
+        "AvailableSlots": 15,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T09:10:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70147053141659,
+          21.004839900714202
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "cfc4c250-72e6-4895-b04e-561f49c653e0",
+        "ProviderId": "4bfcb6d5-8b9f-4ae2-8516-7bbc5e35fb9e",
+        "Name": "Lot P16",
+        "Description": "Description for lot 16.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.96,
+        "Utilities": "CCTV, EV charging",
+        "TotalSlots": 88,
+        "AvailableSlots": 20,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T09:15:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70231517464157,
+          21.005117956382932
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "26bd1b2b-6801-416a-8275-50187a062db2",
+        "ProviderId": "2435e717-f570-4151-82df-9df8d7196451",
+        "Name": "Lot Q17",
+        "Description": "Description for lot 17.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.08,
+        "Utilities": "None",
+        "TotalSlots": 80,
+        "AvailableSlots": 2,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T09:20:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7008614983676,
+          21.00434603936253
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "86fc9ed2-401b-46ec-90c1-a1fe8bc71c4c",
+        "ProviderId": "46317eff-4f59-4c72-9612-f402966f5f84",
+        "Name": "Lot R18",
+        "Description": "Description for lot 18.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.1,
+        "Utilities": "CCTV",
+        "TotalSlots": 49,
+        "AvailableSlots": 3,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T09:25:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7121867563855,
+          21.00943545459701
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "6abbf536-ef0d-4c34-8e88-4fd40e0a61e8",
+        "ProviderId": "00688d2c-f5b3-4786-8cb2-674ad699d0ed",
+        "Name": "Lot S19",
+        "Description": "Description for lot 19.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.0,
+        "Utilities": "Covered, CCTV",
+        "TotalSlots": 22,
+        "AvailableSlots": 3,
+        "Status": "Approved",
+        "CreatedAt": "2025-06-06T09:30:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.71141038772379,
+          21.008937015101182
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "235d65d8-10af-42e5-9156-ea902aeba897",
+        "ProviderId": "0231e4e1-7d32-457b-973b-1c746d9f732a",
+        "Name": "Lot T20",
+        "Description": "Description for lot 20.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 0.69,
+        "Utilities": "Covered",
+        "TotalSlots": 26,
+        "AvailableSlots": 6,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T09:35:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.71103230484272,
+          21.009131002561887
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "f51ce0d3-e813-4409-a27d-f0a045d99995",
+        "ProviderId": "412fd811-5629-4c11-8ec5-2fdd360f48c0",
+        "Name": "Lot U21",
+        "Description": "Description for lot 21.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.65,
+        "Utilities": "CCTV",
+        "TotalSlots": 58,
+        "AvailableSlots": 20,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T09:40:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.71199361861505,
+          21.008399523633898
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "f438638a-1bfd-433b-b244-edf22330b63d",
+        "ProviderId": "7c93f94e-2c01-4999-a7f7-79449dfdaf2d",
+        "Name": "Lot V22",
+        "Description": "Description for lot 22.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.58,
+        "Utilities": "CCTV, EV charging",
+        "TotalSlots": 91,
+        "AvailableSlots": 18,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T09:45:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.71285945727323,
+          21.008496517746266
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "61e82a1d-9eb4-4b97-a329-07a58bb33e4b",
+        "ProviderId": "15d6c83e-cf46-4c3f-9b67-ab8df3ad9c60",
+        "Name": "Lot W23",
+        "Description": "Description for lot 23.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.23,
+        "Utilities": "CCTV, EV charging",
+        "TotalSlots": 57,
+        "AvailableSlots": 18,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T09:50:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7131798175746,
+          21.008997652985144
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "cadfedbb-3fc6-4128-87aa-692e4113c09f",
+        "ProviderId": "86685cd9-f0e5-43e1-a9a1-4cbd885320b3",
+        "Name": "Lot X24",
+        "Description": "Description for lot 24.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 0.95,
+        "Utilities": "EV charging",
+        "TotalSlots": 35,
+        "AvailableSlots": 16,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T09:55:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.71187528733219,
+          21.008404912198174
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "f207a755-0793-4897-9f05-f9ffd8931142",
+        "ProviderId": "292bd065-55e6-4816-a828-f80f2424e122",
+        "Name": "Lot Y25",
+        "Description": "Description for lot 25.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 0.6,
+        "Utilities": "CCTV",
+        "TotalSlots": 74,
+        "AvailableSlots": 2,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T10:00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.71074681094763,
+          21.00821092379229
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "b9a04d22-438f-4e20-8854-1ed212864eba",
+        "ProviderId": "94842bc6-0c8a-429d-b136-a1eeba4b55dd",
+        "Name": "Lot Z26",
+        "Description": "Description for lot 26.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.64,
+        "Utilities": "EV charging",
+        "TotalSlots": 40,
+        "AvailableSlots": 7,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T10:05:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.71164151157797,
+          21.008272893167998
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "f316d2d2-612b-4da8-bdfe-0b26aaf2b31c",
+        "ProviderId": "6cc25c2e-8e60-4d3f-b97f-ddf5b4101ead",
+        "Name": "Lot A27",
+        "Description": "Description for lot 27.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 0.92,
+        "Utilities": "None",
+        "TotalSlots": 21,
+        "AvailableSlots": 5,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T10:10:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.71231419920957,
+          21.007639325947082
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "b977a8b6-c5bc-468e-a0d3-38cadfe766bc",
+        "ProviderId": "dad29140-63fd-4bb7-aa05-9335462c75fd",
+        "Name": "Lot B28",
+        "Description": "Description for lot 28.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.75,
+        "Utilities": "CCTV",
+        "TotalSlots": 56,
+        "AvailableSlots": 1,
+        "Status": "Approved",
+        "CreatedAt": "2025-06-06T10:15:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.71255086055345,
+          21.00747497341996
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "f3219a1f-0339-4ba4-a0ec-784e6d0e10f0",
+        "ProviderId": "5013ad74-65e5-4eeb-9679-5bc295efcbdf",
+        "Name": "Lot C29",
+        "Description": "Description for lot 29.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.51,
+        "Utilities": "Covered, CCTV",
+        "TotalSlots": 90,
+        "AvailableSlots": 7,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T10:20:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.72133660194089,
+          21.015090929202913
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "b2b5acc4-9a25-49fa-8ed3-66acf9b27c89",
+        "ProviderId": "036a3fd9-d2a1-4f28-936c-b84cc608eed3",
+        "Name": "Lot D30",
+        "Description": "Description for lot 30.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.21,
+        "Utilities": "EV charging",
+        "TotalSlots": 52,
+        "AvailableSlots": 20,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T10:25:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.72212935088277,
+          21.01373147878084
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "c650f204-1a34-4620-9473-f1d63958f66e",
+        "ProviderId": "81988c27-6594-437c-b9ae-b29fa5515ea7",
+        "Name": "Lot E31",
+        "Description": "Description for lot 31.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 0.97,
+        "Utilities": "EV charging",
+        "TotalSlots": 48,
+        "AvailableSlots": 18,
+        "Status": "Pending",
+        "CreatedAt": "2025-06-06T10:30:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.723051288541,
+          21.01478395760941
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "9f4ed2d1-d757-47d1-afb1-1cc77f5aebdd",
+        "ProviderId": "f3f01217-09ae-4161-8ec3-b18e0e8d90be",
+        "Name": "Lot F32",
+        "Description": "Description for lot 32.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 2.99,
+        "Utilities": "CCTV",
+        "TotalSlots": 28,
+        "AvailableSlots": 10,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T10:35:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.72341536583116,
+          21.013709552060362
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "ecb392ab-3518-4e4c-b9fb-923ed3534ca1",
+        "ProviderId": "fa8248b6-fe76-4e6c-8c21-714fc0ec768e",
+        "Name": "Lot G33",
+        "Description": "Description for lot 33.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.42,
+        "Utilities": "None",
+        "TotalSlots": 31,
+        "AvailableSlots": 8,
+        "Status": "Rejected",
+        "CreatedAt": "2025-06-06T10:40:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.72365025440718,
+          21.016401033004243
+        ]
+      },
+      "properties": {
+        "ParkingLotId": "61edd047-a6ed-4aea-92e3-5c5106671fcc",
+        "ProviderId": "d1856027-7a3f-45fe-805d-80f652925fb2",
+        "Name": "Lot H34",
+        "Description": "Description for lot 34.",
+        "OpenTime": "06:00:00",
+        "CloseTime": "22:00:00",
+        "PricePerHour": 1.01,
+        "Utilities": "Covered",
+        "TotalSlots": 37,
+        "AvailableSlots": 5,
+        "Status": "Approved",
+        "CreatedAt": "2025-06-06T10:45:00"
+      }
+    }
+  ]
+}

@@ -17,7 +17,7 @@ const MapboxExample = () => {
     mapRef.current = new mapboxgl.Map({
       container: mapContainerRef.current,
       style: "mapbox://styles/nhatnm123/cm7n5ry8s00xy01r3g2azhk07",
-      center: [105.83, 21.02],
+      center: [105.70009820500417, 21.009999933398163],
       zoom: 15,
     });
 
@@ -34,57 +34,32 @@ const MapboxExample = () => {
     mapRef.current.on("load", () => {
       mapRef.current.addSource("test_layer", {
         type: "vector",
-        tiles: ["http://localhost:8080/data/point_data/{z}/{x}/{y}.pbf"], //TODO: Replace with acutual server's API
+        tiles: ["http://localhost:8080/data/parking_lots/{z}/{x}/{y}.pbf"], //TODO: Replace with acutual server's API
         minzoom: 6,
         maxzoom: 14,
       });
 
-      mapRef.current.addLayer({
-        id: "test-layer-fill",
-        type: "fill",
-        source: "test_layer",
-        "source-layer": "test_layer",
-        paint: {
-          "fill-color": "#ff0000",
-          "fill-opacity": 0.5,
-        },
-      });
-
-      mapRef.current.loadImage(
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/RedDot.svg/1024px-RedDot.svg.png",
-        (error, image) => {
-          if (error) throw error;
-          if (!mapRef.current.hasImage("teardrop")) {
-            mapRef.current.addImage("teardrop", image);
-          }
-
-          // Add the symbol layer once the image is loaded
-          mapRef.current.addLayer({
-            id: "points-teardrop",
-            type: "symbol",
-            source: "test_layer",
-            "source-layer": "test_layer",
-            layout: {
-              "icon-image": "teardrop",
-              "icon-size": 0.05, // adjust based on image size
-              "icon-anchor": "bottom",
-            },
-            filter: ["==", "$type", "Point"],
-          });
+      mapRef.current.loadImage("/img/sus.png", (error, image) => {
+        if (error) throw error;
+        if (!mapRef.current.hasImage("icon")) {
+          mapRef.current.addImage("icon", image);
         }
-      );
 
-      // mapRef.current.addLayer({
-      //   id: "points-circle",
-      //   type: "circle",
-      //   source: "test_layer",
-      //   "source-layer": "test_layer",
-      //   paint: {
-      //     "circle-radius": 16,
-      //     "circle-color": "#0078d4",
-      //   },
-      //   filter: ["==", "$type", "Point"],
-      // });
+        // Add the symbol layer once the image is loaded
+        mapRef.current.addLayer({
+          id: "points",
+          type: "symbol",
+          source: "test_layer",
+          "source-layer": "test_layer",
+          layout: {
+            "icon-image": "icon",
+            "icon-size": 0.1,
+            "icon-anchor": "bottom",
+            "icon-allow-overlap": true,
+          },
+          filter: ["==", "$type", "Point"],
+        });
+      });
 
       geolocateRef.current.trigger();
     });
@@ -96,6 +71,37 @@ const MapboxExample = () => {
       if (userCoords) {
         getRoute(userCoords, pinCoords, mapboxgl.accessToken);
       }
+    });
+
+    mapRef.current.on("click", "points", function (e) {
+      const features = mapRef.current.queryRenderedFeatures(e.point, {
+        layers: ["points"],
+      });
+
+      if (features.length) {
+        const props = features[0].properties;
+        console.log(props);
+
+        new mapboxgl.Popup()
+          .setLngLat(e.lngLat)
+          .setHTML(
+            `
+            <div style="color: #333; font-family: sans-serif; font-size: 14px;">
+            <strong style="color: #2c7;">Name: ${props.Name}</strong><br/>
+            <span style="color: #555;">Description: ${props.Description}</span>
+            </div>
+            `
+          )
+          .addTo(mapRef.current);
+      }
+    });
+
+    mapRef.current.on("mouseenter", "points", () => {
+      mapRef.current.getCanvas().style.cursor = "pointer";
+    });
+
+    mapRef.current.on("mouseleave", "points", () => {
+      mapRef.current.getCanvas().style.cursor = "";
     });
 
     geolocateRef.current.on("geolocate", (position) => {
